@@ -1,0 +1,30 @@
+{
+  "name": "vetin-chat-app",
+  "version": "1.0.0",
+  "description": "Real-time messenger aplikace v Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4",
+    "pinia": "^2.1.6",
+    "socket.io-client": "^4.7.2",
+    "axios": "^1.5.0",
+    "@vueuse/core": "^10.4.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "vite": "^4.4.9",
+    "tailwindcss": "^3.3.3",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29"
+  },
+  "keywords": ["vue", "messenger", "chat", "real-time"],
+  "author": "Vetin",
+  "license": "MIT"
+} 
